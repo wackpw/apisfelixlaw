@@ -315,6 +315,7 @@
         <textarea class="field" id="f-what" name="what" rows="3" placeholder="Briefly, what happened?" required></textarea>
         <input type="text" name="company" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
         <button class="btn btn-orange" style="width:100%;justify-content:center" type="submit">Request My Free Review</button>
+        <p style="text-align:center;margin-top:12px;font-size:.95rem"><a href="https://intakegenius.io" target="_blank" rel="noopener" style="color:var(--orange);font-weight:700;display:inline">Prefer a guided online intake? Start here with IntakeGenius →</a></p>
         <p class="form-note">By submitting, you agree that Apis Felix Law may contact you about your inquiry by phone, text, or email, including by automated technology. Consent is not a condition of hiring us. Submitting this form does not create an attorney-client relationship. See our <a href="privacy.html" style="color:var(--orange);display:inline">Privacy Policy</a>.</p>
       </form>
     </div>
@@ -470,6 +471,7 @@
     <h2>Hurt in Utah or Nevada? Let's talk.</h2>
     <p>Free, confidential case review — 24/7. No fee unless we win. The sooner you call, the more we can do to protect your claim and preserve the evidence.</p>
     <a class="btn btn-navy" href="tel:+18889158150">Call 888.915.8150 — Answered 24/7</a>
+    <a class="btn btn-ghost" href="https://intakegenius.io" target="_blank" rel="noopener" style="margin-left:10px">Start Your Intake Online</a>
     <p class="sub">Or use the form at the top of the page. There's a deadline to file (the statute of limitations) — don't wait.</p>
   </div>
 </section>
@@ -493,7 +495,7 @@
       </div>
       <div>
         <h4>Firm</h4>
-        <a href="#insurance">The Insurance Fight</a><a href="#why">Why Us</a><a href="#about">Meet Kevin</a><a href="#contact">Free Case Review</a><a href="privacy.html">Privacy Policy</a>
+        <a href="#insurance">The Insurance Fight</a><a href="#why">Why Us</a><a href="#about">Meet Kevin</a><a href="#contact">Free Case Review</a><a href="https://intakegenius.io" target="_blank" rel="noopener">Online Intake (IntakeGenius)</a><a href="privacy.html">Privacy Policy</a>
       </div>
     </div>
     <p class="disclaimer">
@@ -526,7 +528,7 @@
   // (until then, submissions compose an email to the firm inbox — nothing is silently dropped).
   var AFL_INTAKE_ENDPOINT = "";
   function aflMail(d){return "mailto:kevin@apisfelixlaw.com?subject="+encodeURIComponent("Website case review request — "+d.name)+"&body="+encodeURIComponent("Name: "+d.name+"\nPhone: "+d.phone+"\nWhat happened: "+d.what+"\nSource: apisfelixlaw.com "+d.ts);}
-  function aflThanks(f){f.innerHTML='<div class="form-thanks"><b>Thank you — we have your request.</b><p style="margin-top:8px">We answer 24/7: for the fastest review, call <a href="tel:+18889158150">888.915.8150</a> now.</p></div>';}
+  function aflThanks(f){f.innerHTML='<div class="form-thanks"><b>Thank you — we have your request.</b><p style="margin-top:8px">We answer 24/7: for the fastest review, call <a href="tel:+18889158150">888.915.8150</a> now — or <a href="https://intakegenius.io" target="_blank" rel="noopener">complete your full intake online</a>.</p></div>';}
   function aflSubmit(e){
     e.preventDefault();
     var f=e.target;
