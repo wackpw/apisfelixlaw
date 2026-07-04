@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /portal
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /providers
+Disallow: /upload
+Disallow: /api/
+Disallow: /b2b/
+
+Sitemap: https://intakegenius.io/sitemap.xml
