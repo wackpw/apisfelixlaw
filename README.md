@@ -12,3 +12,4 @@ Compliance rails (NV/UT attorney advertising): no superlatives or guarantees; re
 
 ## Milestones
 - 2026-07-04: /resources/ hub + all 12 attorney-approved guides published (commit da9c83a); GA4 active (G-L7LEM1WDLV).
+- 2026-07-05: /locations/ hub + 8 city-practice + 2 /es pages live; sitemap 26 URLs; GSC verified + sitemap submitted; GA4 firing.
