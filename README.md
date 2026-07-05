@@ -9,3 +9,6 @@ Production source for **apisfelixlaw.com** — Apis Felix Law (a trade name of D
 - **Analytics:** GA4 loader in `index.html` is inert until `AFL_GA4_ID` is set to the real Measurement ID.
 
 Compliance rails (NV/UT attorney advertising): no superlatives or guarantees; results/reviews sections stay hidden until verified; footer disclaimer required on every page.
+
+## Milestones
+- 2026-07-04: /resources/ hub + all 12 attorney-approved guides published (commit da9c83a); GA4 active (G-L7LEM1WDLV).
